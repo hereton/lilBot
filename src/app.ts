@@ -27,7 +27,7 @@ const binance = new Binance().options({
     useServerTime: true,
     recvWindow: 1500, // Set a higher recvWindow to increase response timeout
     verbose: false, // Add extra output when subscribing to WebSockets, etc
-    test: false,
+    test: true,
     reconnect: true
     // to do: enable Logging
 });
@@ -42,6 +42,9 @@ interface ITicker {
 
 const getSymbol = (body: string) => {
     return body.split(':')[1]
+}
+const getAmount = (body: string) => {
+    return body.split('amount:')[1]?.trim()
 }
 
 const sendLineNotify = async (text: string, token: string) => {
@@ -83,13 +86,16 @@ eventEmitter.on('error', (err: any) => {
     console.error(err);
 })
 
-eventEmitter.on('buy', (symbol) => {
-
+eventEmitter.on('buy', (symbol, amount?: number) => {
     binance.balance((error: any, balances: any) => {
         if (error) return console.error(error);
-        const usdtBal = balances.USDT.available - 1;
+        let usdtBal = balances.USDT.available
+        if (amount && amount < usdtBal) {
+            usdtBal = amount
+        } else {
+            usdtBal = usdtBal - 1
+        }
         // const usdtBal = 11
-
         if (balances.USDT.available > 10.00) {
             binance.bookTickers(symbol, (error: any, ticker: any) => {
                 console.log(ticker)
@@ -147,7 +153,6 @@ eventEmitter.on('sell', async (symbol: string) => {
     }
 })
 
-
 const server = http.createServer((req: any, res: any) => {
     //const { headers, method, url } = req;
     let body: any[] = [];
@@ -159,16 +164,18 @@ const server = http.createServer((req: any, res: any) => {
         let text: string = Buffer.concat(body).toString();
         if (text.includes('buy')) {
             const symbol = getSymbol(text)
-            await eventEmitter.emit('buy', symbol); // <----------------------- BUY
+            const amount = getAmount(text)
+            console.log('amount ', amount)
+            await eventEmitter.emit('buy', symbol, amount); // <----------------------- BUY
             // if (process.env.LINE_TOKEN) {
             //     await sendLineNotify(text, process.env.LINE_TOKEN)
             // }
         }
-
-        if (text.includes('sell')) {
+        else if (text.includes('sell')) {
             const symbol = getSymbol(text)
             await eventEmitter.emit('sell', symbol); // <---------------------- SELL
         }
+
         // console.log(text);
         res.statusCode = 200;
         console.log('hook ', text)
