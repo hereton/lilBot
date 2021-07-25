@@ -43,6 +43,9 @@ interface ITicker {
 const getSymbol = (body: string) => {
     return body.split(':')[1]
 }
+const getAmount = (body: string) => {
+    return Number(body.split('amount:')[1]?.trim())
+}
 
 const sendLineNotify = async (text: string, token: string) => {
     const params = {
@@ -83,13 +86,17 @@ eventEmitter.on('error', (err: any) => {
     console.error(err);
 })
 
-eventEmitter.on('buy', (symbol) => {
-
+eventEmitter.on('buy', (symbol, amount?: number) => {
     binance.balance((error: any, balances: any) => {
         if (error) return console.error(error);
-        const usdtBal = balances.USDT.available - 1;
+        let usdtBal = balances.USDT.available
+        if (amount && amount < usdtBal) {
+            usdtBal = amount
+        } else {
+            usdtBal = usdtBal - 1
+        }
+	console.log('to buy balance',usdtBal)
         // const usdtBal = 11
-
         if (balances.USDT.available > 10.00) {
             binance.bookTickers(symbol, (error: any, ticker: any) => {
                 console.log(ticker)
@@ -100,7 +107,8 @@ eventEmitter.on('buy', (symbol) => {
                 console.log(` Buying ${symbol}, available USDT ${usdtBal}, available qty ${availableQty}`);
                 binance.marketBuy(symbol, availableQty, (error: any, response: any) => {
                     if (error) {
-                        console.log(error.body)
+                        //console.log(error.body)
+			console.log('Error, cannot buy ',symbol)
                     } else {
                         console.log('response')
                         console.log(response)
@@ -125,6 +133,8 @@ eventEmitter.on('sell', async (symbol: string) => {
                 const checkedTicker: string = symbol.includes('USDT') ? symbol.replace('USDT', '') : symbol
                 let availableQty: number = parseFloat(balances[checkedTicker].available || 0)
                 availableQty = getAvailableQty(availableQty, ticker)
+		console.log('selling...',symbol)
+		console.log('available qty', availableQty)
                 if (availableQty) {
                     // const availableQty = getAvailableQty(availableQty, symbol)
                     const response = await binance.marketSell(symbol, availableQty, (error: any, response: any) => {
@@ -147,7 +157,6 @@ eventEmitter.on('sell', async (symbol: string) => {
     }
 })
 
-
 const server = http.createServer((req: any, res: any) => {
     //const { headers, method, url } = req;
     let body: any[] = [];
@@ -159,16 +168,18 @@ const server = http.createServer((req: any, res: any) => {
         let text: string = Buffer.concat(body).toString();
         if (text.includes('buy')) {
             const symbol = getSymbol(text)
-            await eventEmitter.emit('buy', symbol); // <----------------------- BUY
+            const amount = getAmount(text)
+            console.log('amount ', amount)
+            await eventEmitter.emit('buy', symbol, amount); // <----------------------- BUY
             // if (process.env.LINE_TOKEN) {
             //     await sendLineNotify(text, process.env.LINE_TOKEN)
             // }
         }
-
-        if (text.includes('sell')) {
+        else if (text.includes('sell')) {
             const symbol = getSymbol(text)
             await eventEmitter.emit('sell', symbol); // <---------------------- SELL
         }
+
         // console.log(text);
         res.statusCode = 200;
         console.log('hook ', text)
