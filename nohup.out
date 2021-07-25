@@ -1,0 +1,1849 @@
+[33m[nodemon] 2.0.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: ts,js[39m
+[32m[nodemon] starting `ts-node ./src/app.ts src/app.ts`[39m
+events.js:353
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:173:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:561:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+Test Mode:  false
+Server running at http://127.0.0.1:1150/
+hook  
+hook  
+hook  
+hook  
+hook  MATICUSDT Inside Channel (Upper Bound: 2.00000, Lower Bound: 1.00000)
+hook  MATICUSDT Inside Channel (Upper Bound: 2.00000, Lower Bound: 1.00000)
+hook  MATICUSDT Inside Channel (Upper Bound: 2.00000, Lower Bound: 1.00000)
+hook  test bot sell BINANCE:MATICUSDT: 
+Cannot Sell MATICUSDT
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.67956000',
+  bidQty: '3938.00000000',
+  askPrice: '1.67984000',
+  askQty: '1031.80000000'
+}
+
+ Buying MATICUSDT, available USDT 65.7482045, available qty 39.1
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 676022476,
+  orderListId: -1,
+  clientOrderId: 'Pgp19X4jhWEQz5xkYQaeZH',
+  transactTime: 1623781802442,
+  price: '0.00000000',
+  origQty: '39.10000000',
+  executedQty: '39.10000000',
+  cummulativeQuoteQty: '65.68174400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.67984000',
+      qty: '39.10000000',
+      commission: '0.03910000',
+      commissionAsset: 'MATIC',
+      tradeId: 109696859
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 676288469,
+  orderListId: -1,
+  clientOrderId: 'SDTcklAp80c58FUE5FiuIk',
+  transactTime: 1623785405475,
+  price: '0.00000000',
+  origQty: '39.10000000',
+  executedQty: '39.10000000',
+  cummulativeQuoteQty: '64.17134500',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.64145000',
+      qty: '1.70000000',
+      commission: '0.00279047',
+      commissionAsset: 'USDT',
+      tradeId: 109731333
+    },
+    {
+      price: '1.64120000',
+      qty: '37.40000000',
+      commission: '0.06138088',
+      commissionAsset: 'USDT',
+      tradeId: 109731334
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.62498000',
+  bidQty: '720.00000000',
+  askPrice: '1.62549000',
+  askQty: '720.00000000'
+}
+
+ Buying MATICUSDT, available USDT 64.18646842, available qty 39.4
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 679319731,
+  orderListId: -1,
+  clientOrderId: 'U8Y7CgNDA3OMI9tbMlCc4I',
+  transactTime: 1623826808634,
+  price: '0.00000000',
+  origQty: '39.40000000',
+  executedQty: '39.40000000',
+  cummulativeQuoteQty: '64.03721400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.62531000',
+      qty: '39.40000000',
+      commission: '0.03940000',
+      commissionAsset: 'MATIC',
+      tradeId: 110072955
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 679774227,
+  orderListId: -1,
+  clientOrderId: 'uja9MEGsUULG3SLgiqMLXr',
+  transactTime: 1623834909238,
+  price: '0.00000000',
+  origQty: '39.30000000',
+  executedQty: '39.30000000',
+  cummulativeQuoteQty: '62.82143900',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.59895000',
+      qty: '2.50000000',
+      commission: '0.00399738',
+      commissionAsset: 'USDT',
+      tradeId: 110119949
+    },
+    {
+      price: '1.59848000',
+      qty: '36.80000000',
+      commission: '0.05882406',
+      commissionAsset: 'USDT',
+      tradeId: 110119950
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.54890000',
+  bidQty: '853.40000000',
+  askPrice: '1.54907000',
+  askQty: '454.00000000'
+}
+
+ Buying MATICUSDT, available USDT 62.92043627, available qty 40.6
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 682834551,
+  orderListId: -1,
+  clientOrderId: 'MABm4nHvsbSLtKViV3w7HH',
+  transactTime: 1623871833410,
+  price: '0.00000000',
+  origQty: '40.60000000',
+  executedQty: '40.60000000',
+  cummulativeQuoteQty: '62.89102400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.54904000',
+      qty: '40.60000000',
+      commission: '0.04060000',
+      commissionAsset: 'MATIC',
+      tradeId: 110558699
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 683034991,
+  orderListId: -1,
+  clientOrderId: 'QCjnpLhJSfawD8IwPZ7mdw',
+  transactTime: 1623875402909,
+  price: '0.00000000',
+  origQty: '40.60000000',
+  executedQty: '40.60000000',
+  cummulativeQuoteQty: '62.07180000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.52887000',
+      qty: '36.00000000',
+      commission: '0.05503932',
+      commissionAsset: 'USDT',
+      tradeId: 110579492
+    },
+    {
+      price: '1.52880000',
+      qty: '4.60000000',
+      commission: '0.00703248',
+      commissionAsset: 'USDT',
+      tradeId: 110579493
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.50863000',
+  bidQty: '40.00000000',
+  askPrice: '1.50895000',
+  askQty: '390.20000000'
+}
+
+ Buying MATICUSDT, available USDT 62.05155483, available qty 41.1
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 684708275,
+  orderListId: -1,
+  clientOrderId: 'd7ybVjwCwHLXmYk0xqbfcp',
+  transactTime: 1623901502646,
+  price: '0.00000000',
+  origQty: '41.10000000',
+  executedQty: '41.10000000',
+  cummulativeQuoteQty: '62.01784500',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.50895000',
+      qty: '41.10000000',
+      commission: '0.04110000',
+      commissionAsset: 'MATIC',
+      tradeId: 110780625
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 686797667,
+  orderListId: -1,
+  clientOrderId: 'ntNrVtbhApLEHrUF7HU5Z5',
+  transactTime: 1623933901870,
+  price: '0.00000000',
+  origQty: '41.10000000',
+  executedQty: '41.10000000',
+  cummulativeQuoteQty: '61.98660900',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.50819000',
+      qty: '41.10000000',
+      commission: '0.06198661',
+      commissionAsset: 'USDT',
+      tradeId: 111006010
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.49544000',
+  bidQty: '986.30000000',
+  askPrice: '1.49576000',
+  askQty: '401.00000000'
+}
+
+ Buying MATICUSDT, available USDT 61.97072954, available qty 41.4
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 689098627,
+  orderListId: -1,
+  clientOrderId: '9XydAhRv1SwKnI9yAdkwlh',
+  transactTime: 1623973504496,
+  price: '0.00000000',
+  origQty: '41.40000000',
+  executedQty: '41.40000000',
+  cummulativeQuoteQty: '61.92446400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.49576000',
+      qty: '41.40000000',
+      commission: '0.04140000',
+      commissionAsset: 'MATIC',
+      tradeId: 111258669
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 689442558,
+  orderListId: -1,
+  clientOrderId: 'gV1wGdibRSb1LI7LTF88Hq',
+  transactTime: 1623979803191,
+  price: '0.00000000',
+  origQty: '41.30000000',
+  executedQty: '41.30000000',
+  cummulativeQuoteQty: '60.67796000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.46920000',
+      qty: '41.30000000',
+      commission: '0.06067796',
+      commissionAsset: 'USDT',
+      tradeId: 111288353
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.38082000',
+  bidQty: '5999.90000000',
+  askPrice: '1.38100000',
+  askQty: '1907.90000000'
+}
+
+ Buying MATICUSDT, available USDT 60.67568317, available qty 43.9
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 694332844,
+  orderListId: -1,
+  clientOrderId: 'aiJtUHy08vVlRvat5v0ZGd',
+  transactTime: 1624054501564,
+  price: '0.00000000',
+  origQty: '43.90000000',
+  executedQty: '43.90000000',
+  cummulativeQuoteQty: '60.61448600',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.38074000',
+      qty: '43.90000000',
+      commission: '0.04390000',
+      commissionAsset: 'MATIC',
+      tradeId: 111851151
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 695769317,
+  orderListId: -1,
+  clientOrderId: 'tnfiHAtIFtWULt2kHUCZ64',
+  transactTime: 1624074303406,
+  price: '0.00000000',
+  origQty: '43.90000000',
+  executedQty: '43.90000000',
+  cummulativeQuoteQty: '59.61005400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.35786000',
+      qty: '43.90000000',
+      commission: '0.05961005',
+      commissionAsset: 'USDT',
+      tradeId: 111995016
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.39882000',
+  bidQty: '64.80000000',
+  askPrice: '1.39892000',
+  askQty: '277.60000000'
+}
+
+ Buying MATICUSDT, available USDT 59.62356313, available qty 42.6
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 696346295,
+  orderListId: -1,
+  clientOrderId: '8I3w3uS6PGgEVg3FNhYGDk',
+  transactTime: 1624082403220,
+  price: '0.00000000',
+  origQty: '42.60000000',
+  executedQty: '42.60000000',
+  cummulativeQuoteQty: '59.59271400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.39889000',
+      qty: '42.60000000',
+      commission: '0.04260000',
+      commissionAsset: 'MATIC',
+      tradeId: 112041589
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 697383698,
+  orderListId: -1,
+  clientOrderId: 'QeRfzExf0yahSQdHVTInmL',
+  transactTime: 1624098605473,
+  price: '0.00000000',
+  origQty: '42.60000000',
+  executedQty: '42.60000000',
+  cummulativeQuoteQty: '58.80035400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.38029000',
+      qty: '42.60000000',
+      commission: '0.05880035',
+      commissionAsset: 'USDT',
+      tradeId: 112132352
+    }
+  ]
+}
+hook  test bot buy BINANCE:MATICUSDT: 
+{
+  symbol: 'MATICUSDT',
+  bidPrice: '1.41341000',
+  bidQty: '213.40000000',
+  askPrice: '1.41423000',
+  askQty: '2516.00000000'
+}
+
+ Buying MATICUSDT, available USDT 58.78416285, available qty 41.5
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 697730435,
+  orderListId: -1,
+  clientOrderId: 'gLo2UedJjFIYpxkjSFPC8S',
+  transactTime: 1624104902329,
+  price: '0.00000000',
+  origQty: '41.50000000',
+  executedQty: '41.50000000',
+  cummulativeQuoteQty: '58.68390500',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.41407000',
+      qty: '41.50000000',
+      commission: '0.04150000',
+      commissionAsset: 'MATIC',
+      tradeId: 112160313
+    }
+  ]
+}
+hook  test bot sell BINANCE:MATICUSDT: 
+response
+{
+  symbol: 'MATICUSDT',
+  orderId: 698797258,
+  orderListId: -1,
+  clientOrderId: '3KSGY6im3seJctcU0wa6gI',
+  transactTime: 1624122902071,
+  price: '0.00000000',
+  origQty: '41.40000000',
+  executedQty: '41.40000000',
+  cummulativeQuoteQty: '57.27856700',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.38355000',
+      qty: '1.10000000',
+      commission: '0.00152191',
+      commissionAsset: 'USDT',
+      tradeId: 112278741
+    },
+    {
+      price: '1.38354000',
+      qty: '35.60000000',
+      commission: '0.04925402',
+      commissionAsset: 'USDT',
+      tradeId: 112278742
+    },
+    {
+      price: '1.38354000',
+      qty: '4.70000000',
+      commission: '0.00650264',
+      commissionAsset: 'USDT',
+      tradeId: 112278743
+    }
+  ]
+}
+hook  test bot buy BINANCE:TOMOUSDT: 
+{
+  symbol: 'TOMOUSDT',
+  bidPrice: '1.73930000',
+  bidQty: '210.00000000',
+  askPrice: '1.74240000',
+  askQty: '210.00000000'
+}
+
+ Buying TOMOUSDT, available USDT 57.33300199, available qty 32.9
+response
+{
+  symbol: 'TOMOUSDT',
+  orderId: 304345220,
+  orderListId: -1,
+  clientOrderId: 'q5NN4FLD9F7FrUNuz1ftvl',
+  transactTime: 1624147221457,
+  price: '0.00000000',
+  origQty: '32.90000000',
+  executedQty: '32.90000000',
+  cummulativeQuoteQty: '57.37431000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '1.74390000',
+      qty: '32.90000000',
+      commission: '0.03290000',
+      commissionAsset: 'TOMO',
+      tradeId: 14855489
+    }
+  ]
+}
+hook  test bot sell BINANCE:TOMOUSDT: 
+response
+{
+  symbol: 'TOMOUSDT',
+  orderId: 305533511,
+  orderListId: -1,
+  clientOrderId: 'tPPVRX8FP5uSM6OMt6hKXa',
+  transactTime: 1624320006090,
+  price: '0.00000000',
+  origQty: '32.80000000',
+  executedQty: '32.80000000',
+  cummulativeQuoteQty: '48.48824000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '1.47830000',
+      qty: '32.80000000',
+      commission: '0.04848824',
+      commissionAsset: 'USDT',
+      tradeId: 14910604
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+{"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+{
+  symbol: 'BTCDOWNUSDT',
+  bidPrice: '0.07469000',
+  bidQty: '221519.23000000',
+  askPrice: '0.07481000',
+  askQty: '1231.05000000'
+}
+
+ Buying BTCDOWNUSDT, available USDT 47.4730922, available qty 634.58
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 241735335,
+  orderListId: -1,
+  clientOrderId: 'ePCRZoaG7YJ3vVvvE5INQo',
+  transactTime: 1624350607079,
+  price: '0.00000000',
+  origQty: '634.58000000',
+  executedQty: '634.58000000',
+  cummulativeQuoteQty: '47.47292980',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '0.07481000',
+      qty: '634.58000000',
+      commission: '0.63458000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 11515691
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 243667544,
+  orderListId: -1,
+  clientOrderId: 'PWpjlSG7pC3FXTbOsNYK5x',
+  transactTime: 1624377619548,
+  price: '0.00000000',
+  origQty: '634.11000000',
+  executedQty: '634.11000000',
+  cummulativeQuoteQty: '46.16320800',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.07280000',
+      qty: '634.11000000',
+      commission: '0.04616321',
+      commissionAsset: 'USDT',
+      tradeId: 11622169
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+hook  test bot buy BINANCE:BTCUPUSDT: 
+Cannot Sell BTCDOWNUSDT
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '46.73300000',
+  bidQty: '2.21000000',
+  askPrice: '46.80000000',
+  askQty: '4.96000000'
+}
+
+ Buying BTCUPUSDT, available USDT 46.12643983, available qty 0.98
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 193542315,
+  orderListId: -1,
+  clientOrderId: 'LUsjci1l4gcBG9GtJdVS1E',
+  transactTime: 1624492820455,
+  price: '0.00000000',
+  origQty: '0.98000000',
+  executedQty: '0.98000000',
+  cummulativeQuoteQty: '45.86400000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '46.80000000',
+      qty: '0.98000000',
+      commission: '0.00098000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12186640
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 193578564,
+  orderListId: -1,
+  clientOrderId: 'zMlwHIcc1ECt1jFNZx43wG',
+  transactTime: 1624496408064,
+  price: '0.00000000',
+  origQty: '0.97000000',
+  executedQty: '0.97000000',
+  cummulativeQuoteQty: '44.05837000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '45.42100000',
+      qty: '0.97000000',
+      commission: '0.04405837',
+      commissionAsset: 'USDT',
+      tradeId: 12188328
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+{
+  symbol: 'BTCDOWNUSDT',
+  bidPrice: '0.06321000',
+  bidQty: '6824.49000000',
+  askPrice: '0.06325000',
+  askQty: '8314.09000000'
+}
+
+ Buying BTCDOWNUSDT, available USDT 44.28556313, available qty 700.16
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 245967236,
+  orderListId: -1,
+  clientOrderId: 'iycRfJRfMFvkI2kV11k5O2',
+  transactTime: 1624497321261,
+  price: '0.00000000',
+  origQty: '700.16000000',
+  executedQty: '700.16000000',
+  cummulativeQuoteQty: '44.28512000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '0.06325000',
+      qty: '42.82000000',
+      commission: '0.04282000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 11839258
+    },
+    {
+      price: '0.06325000',
+      qty: '657.34000000',
+      commission: '0.65734000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 11839259
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 246386647,
+  orderListId: -1,
+  clientOrderId: 'qINqEFdo2wnRoIssWuTrxG',
+  transactTime: 1624519809904,
+  price: '0.00000000',
+  origQty: '699.60000000',
+  executedQty: '699.60000000',
+  cummulativeQuoteQty: '44.42460000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.06350000',
+      qty: '699.60000000',
+      commission: '0.04442460',
+      commissionAsset: 'USDT',
+      tradeId: 11860597
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '45.45800000',
+  bidQty: '83.96000000',
+  askPrice: '45.53400000',
+  askQty: '583.68000000'
+}
+
+ Buying BTCUPUSDT, available USDT 44.38061853, available qty 0.97
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 193814674,
+  orderListId: -1,
+  clientOrderId: 'ZHjUesUC42yr2ZjhUXNTLf',
+  transactTime: 1624519811370,
+  price: '0.00000000',
+  origQty: '0.97000000',
+  executedQty: '0.97000000',
+  cummulativeQuoteQty: '44.16798000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '45.53400000',
+      qty: '0.97000000',
+      commission: '0.00097000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12198692
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 194458432,
+  orderListId: -1,
+  clientOrderId: 'm7mYBZR6NexlP7IkKGeiih',
+  transactTime: 1624584604358,
+  price: '0.00000000',
+  origQty: '0.97000000',
+  executedQty: '0.97000000',
+  cummulativeQuoteQty: '47.32727000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '48.79100000',
+      qty: '0.97000000',
+      commission: '0.04732727',
+      commissionAsset: 'USDT',
+      tradeId: 12235124
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+{
+  symbol: 'BTCDOWNUSDT',
+  bidPrice: '0.05630000',
+  bidQty: '266558.10000000',
+  askPrice: '0.05636000',
+  askQty: '106101.02000000'
+}
+
+ Buying BTCDOWNUSDT, available USDT 47.51093163, available qty 842.99
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 247355245,
+  orderListId: -1,
+  clientOrderId: '4EuEOSyulQ73Va7H61F0Mi',
+  transactTime: 1624585510629,
+  price: '0.00000000',
+  origQty: '842.99000000',
+  executedQty: '842.99000000',
+  cummulativeQuoteQty: '47.51091640',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '0.05636000',
+      qty: '842.99000000',
+      commission: '0.84299000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 11977223
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+Cannot but BTCUPUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 247370308,
+  orderListId: -1,
+  clientOrderId: 'UKXxapQhwXrgfdyaKdcY4z',
+  transactTime: 1624586418101,
+  price: '0.00000000',
+  origQty: '842.32000000',
+  executedQty: '842.32000000',
+  cummulativeQuoteQty: '46.39952750',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.05509000',
+      qty: '454.19000000',
+      commission: '0.02502133',
+      commissionAsset: 'USDT',
+      tradeId: 11977940
+    },
+    {
+      price: '0.05508000',
+      qty: '388.13000000',
+      commission: '0.02137820',
+      commissionAsset: 'USDT',
+      tradeId: 11977941
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+hook  test bot sell BINANCE:BTCUPUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 194623877,
+  orderListId: -1,
+  clientOrderId: 'Syx0Hh2NTw1BIP9ykeKyyF',
+  transactTime: 1624599006353,
+  price: '0.00000000',
+  origQty: '0.94000000',
+  executedQty: '0.94000000',
+  cummulativeQuoteQty: '46.03744000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '48.97600000',
+      qty: '0.94000000',
+      commission: '0.04603744',
+      commissionAsset: 'USDT',
+      tradeId: 12243803
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 250326189,
+  orderListId: -1,
+  clientOrderId: 'YVDDHKd6iviGyyvFedaiRi',
+  transactTime: 1624679104336,
+  price: '0.00000000',
+  origQty: '812.58000000',
+  executedQty: '812.58000000',
+  cummulativeQuoteQty: '54.86540160',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.06752000',
+      qty: '812.58000000',
+      commission: '0.05486540',
+      commissionAsset: 'USDT',
+      tradeId: 12102530
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '42.52900000',
+  bidQty: '31.89000000',
+  askPrice: '42.54000000',
+  askQty: '175.06000000'
+}
+
+ Buying BTCUPUSDT, available USDT 53.81054236, available qty 1.26
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 195802839,
+  orderListId: -1,
+  clientOrderId: 'ZSJlJgDimgOUrq5PIBROIH',
+  transactTime: 1624679114243,
+  price: '0.00000000',
+  origQty: '1.26000000',
+  executedQty: '1.26000000',
+  cummulativeQuoteQty: '53.60040000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '42.54000000',
+      qty: '1.26000000',
+      commission: '0.00126000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12361974
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+hook  test bot sell BINANCE:BTCUPUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 195958065,
+  orderListId: -1,
+  clientOrderId: 'jJ1u1voP2YllcUgEoiLWAf',
+  transactTime: 1624691704911,
+  price: '0.00000000',
+  origQty: '1.20000000',
+  executedQty: '1.20000000',
+  cummulativeQuoteQty: '48.61892000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '40.51600000',
+      qty: '0.92000000',
+      commission: '0.03727472',
+      commissionAsset: 'USDT',
+      tradeId: 12390435
+    },
+    {
+      price: '40.51500000',
+      qty: '0.28000000',
+      commission: '0.01134420',
+      commissionAsset: 'USDT',
+      tradeId: 12390436
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+Cannot Sell BTCDOWNUSDT
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '41.21300000',
+  bidQty: '12.38000000',
+  askPrice: '41.30000000',
+  askQty: '0.78000000'
+}
+
+ Buying BTCUPUSDT, available USDT 48.80114031, available qty 1.18
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 196301009,
+  orderListId: -1,
+  clientOrderId: 'pZoVpmGda8QDrS7yyp0pLD',
+  transactTime: 1624709704227,
+  price: '0.00000000',
+  origQty: '1.18000000',
+  executedQty: '1.18000000',
+  cummulativeQuoteQty: '48.75240000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '41.30000000',
+      qty: '0.78000000',
+      commission: '0.00078000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12435127
+    },
+    {
+      price: '41.34600000',
+      qty: '0.40000000',
+      commission: '0.00040000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12435128
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+[ 'balanceData error', {} ]
+Error: ETIMEDOUT
+    at Timeout.<anonymous> (/home/pi/Developer/lilBot/node_modules/request/request.js:848:19)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7) {
+  code: 'ETIMEDOUT',
+  connect: true
+}
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 196407009,
+  orderListId: -1,
+  clientOrderId: 'BdWyEHCMgKNUcmImdurcqx',
+  transactTime: 1624716012375,
+  price: '0.00000000',
+  origQty: '1.24000000',
+  executedQty: '1.24000000',
+  cummulativeQuoteQty: '48.80516000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '39.35900000',
+      qty: '1.24000000',
+      commission: '0.04880516',
+      commissionAsset: 'USDT',
+      tradeId: 12441140
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+Cannot Sell BTCDOWNUSDT
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '41.55900000',
+  bidQty: '219.40000000',
+  askPrice: '41.59500000',
+  askQty: '1.00000000'
+}
+
+ Buying BTCUPUSDT, available USDT 48.81485618, available qty 1.1
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 196636910,
+  orderListId: -1,
+  clientOrderId: 'VmcNR5DJ1FF1jQqABz4aNn',
+  transactTime: 1624730412507,
+  price: '0.00000000',
+  origQty: '1.10000000',
+  executedQty: '1.10000000',
+  cummulativeQuoteQty: '45.83260000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '41.66600000',
+      qty: '1.10000000',
+      commission: '0.00110000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12452243
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 196766935,
+  orderListId: -1,
+  clientOrderId: 'tHOk06SPstLgWUxTFlaa5j',
+  transactTime: 1624742119985,
+  price: '0.00000000',
+  origQty: '1.10000000',
+  executedQty: '1.10000000',
+  cummulativeQuoteQty: '43.68430000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '39.71300000',
+      qty: '1.10000000',
+      commission: '0.04368430',
+      commissionAsset: 'USDT',
+      tradeId: 12458219
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+Cannot Sell BTCDOWNUSDT
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '40.94200000',
+  bidQty: '260.71000000',
+  askPrice: '41.02800000',
+  askQty: '148.39000000'
+}
+
+ Buying BTCUPUSDT, available USDT 46.63160874, available qty 1.13
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 196796826,
+  orderListId: -1,
+  clientOrderId: 'IjTUTTOYDzXTcWjdIIqLgf',
+  transactTime: 1624746619893,
+  price: '0.00000000',
+  origQty: '1.13000000',
+  executedQty: '1.13000000',
+  cummulativeQuoteQty: '46.36164000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '41.02800000',
+      qty: '1.13000000',
+      commission: '0.00113000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12459720
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 197378603,
+  orderListId: -1,
+  clientOrderId: '320FqLN1iKoIVULIsQmDlJ',
+  transactTime: 1624788906748,
+  price: '0.00000000',
+  origQty: '1.10000000',
+  executedQty: '1.10000000',
+  cummulativeQuoteQty: '48.36882000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '43.97700000',
+      qty: '0.26000000',
+      commission: '0.01143402',
+      commissionAsset: 'USDT',
+      tradeId: 12495347
+    },
+    {
+      price: '43.97000000',
+      qty: '0.84000000',
+      commission: '0.03693480',
+      commissionAsset: 'USDT',
+      tradeId: 12495348
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+{
+  symbol: 'BTCDOWNUSDT',
+  bidPrice: '0.06485000',
+  bidQty: '353729.63000000',
+  askPrice: '0.06499000',
+  askQty: '3352.34000000'
+}
+
+ Buying BTCDOWNUSDT, available USDT 48.60009368, available qty 747.8
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 253837719,
+  orderListId: -1,
+  clientOrderId: 'ux4cdYkAQ4J45jykjZ8SNu',
+  transactTime: 1624789804896,
+  price: '0.00000000',
+  origQty: '747.80000000',
+  executedQty: '747.80000000',
+  cummulativeQuoteQty: '48.60700000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '0.06500000',
+      qty: '747.80000000',
+      commission: '0.74780000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 12298627
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 253921228,
+  orderListId: -1,
+  clientOrderId: 'jwBtuQWidTc2rfeCVyBCmZ',
+  transactTime: 1624795209915,
+  price: '0.00000000',
+  origQty: '747.20000000',
+  executedQty: '747.20000000',
+  cummulativeQuoteQty: '46.13212800',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.06174000',
+      qty: '747.20000000',
+      commission: '0.04613213',
+      commissionAsset: 'USDT',
+      tradeId: 12306362
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '45.66000000',
+  bidQty: '91.06000000',
+  askPrice: '45.76100000',
+  askQty: '198.84000000'
+}
+
+ Buying BTCUPUSDT, available USDT 46.07908955, available qty 1
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 197464687,
+  orderListId: -1,
+  clientOrderId: 'Y8hqDpbhKIgma38YzH5WIS',
+  transactTime: 1624795215466,
+  price: '0.00000000',
+  origQty: '1.00000000',
+  executedQty: '1.00000000',
+  cummulativeQuoteQty: '45.75500000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '45.75500000',
+      qty: '1.00000000',
+      commission: '0.00100000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12501818
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 197728183,
+  orderListId: -1,
+  clientOrderId: 'IkKZartkDTR0kFy1on3GD8',
+  transactTime: 1624817705496,
+  price: '0.00000000',
+  origQty: '1.00000000',
+  executedQty: '1.00000000',
+  cummulativeQuoteQty: '43.78092000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '43.78100000',
+      qty: '0.92000000',
+      commission: '0.04027852',
+      commissionAsset: 'USDT',
+      tradeId: 12515099
+    },
+    {
+      price: '43.78000000',
+      qty: '0.08000000',
+      commission: '0.00350240',
+      commissionAsset: 'USDT',
+      tradeId: 12515100
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+Cannot Sell BTCDOWNUSDT
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '46.75500000',
+  bidQty: '0.77000000',
+  askPrice: '46.87100000',
+  askQty: '91.48000000'
+}
+
+ Buying BTCUPUSDT, available USDT 44.07921123, available qty 0.94
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 197866357,
+  orderListId: -1,
+  clientOrderId: 'KIYgFbhB7jJHxxK82HOp9Z',
+  transactTime: 1624832117164,
+  price: '0.00000000',
+  origQty: '0.94000000',
+  executedQty: '0.94000000',
+  cummulativeQuoteQty: '44.05874000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '46.87100000',
+      qty: '0.94000000',
+      commission: '0.00094000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12521408
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198308138,
+  orderListId: -1,
+  clientOrderId: 'EhzTrrRnsbTzeMryLPEFUg',
+  transactTime: 1624876208544,
+  price: '0.00000000',
+  origQty: '0.97000000',
+  executedQty: '0.97000000',
+  cummulativeQuoteQty: '46.35048000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '47.78400000',
+      qty: '0.97000000',
+      commission: '0.04635048',
+      commissionAsset: 'USDT',
+      tradeId: 12551631
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+{
+  symbol: 'BTCDOWNUSDT',
+  bidPrice: '0.05829000',
+  bidQty: '2467.07000000',
+  askPrice: '0.05836000',
+  askQty: '257.02000000'
+}
+
+ Buying BTCDOWNUSDT, available USDT 46.33387085, available qty 793.93
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 255640985,
+  orderListId: -1,
+  clientOrderId: 'L1ted9pw5Qlxe6Jroz5S0Q',
+  transactTime: 1624877103578,
+  price: '0.00000000',
+  origQty: '793.93000000',
+  executedQty: '793.93000000',
+  cummulativeQuoteQty: '46.33912390',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '0.05836000',
+      qty: '257.02000000',
+      commission: '0.25702000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 12451578
+    },
+    {
+      price: '0.05837000',
+      qty: '536.91000000',
+      commission: '0.53691000',
+      commissionAsset: 'BTCDOWN',
+      tradeId: 12451579
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 255906134,
+  orderListId: -1,
+  clientOrderId: 'Xy8cjsrDuVjrKC1OPqYLMY',
+  transactTime: 1624894205960,
+  price: '0.00000000',
+  origQty: '793.30000000',
+  executedQty: '793.30000000',
+  cummulativeQuoteQty: '44.96424400',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.05668000',
+      qty: '793.30000000',
+      commission: '0.04496424',
+      commissionAsset: 'USDT',
+      tradeId: 12467194
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '48.75100000',
+  bidQty: '0.75000000',
+  askPrice: '48.82700000',
+  askQty: '17.09000000'
+}
+
+ Buying BTCUPUSDT, available USDT 44.91402671, available qty 0.91
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198451647,
+  orderListId: -1,
+  clientOrderId: 'rlyx0RuuMux7hThaleFOSk',
+  transactTime: 1624894209416,
+  price: '0.00000000',
+  origQty: '0.91000000',
+  executedQty: '0.91000000',
+  cummulativeQuoteQty: '44.43257000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '48.82700000',
+      qty: '0.91000000',
+      commission: '0.00091000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12560806
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198545198,
+  orderListId: -1,
+  clientOrderId: 'LyafGJ2scnaNV0Cd9ohd2S',
+  transactTime: 1624903212287,
+  price: '0.00000000',
+  origQty: '0.91000000',
+  executedQty: '0.91000000',
+  cummulativeQuoteQty: '43.61721000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '47.93100000',
+      qty: '0.91000000',
+      commission: '0.04361721',
+      commissionAsset: 'USDT',
+      tradeId: 12568002
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+response
+{
+  symbol: 'BTCDOWNUSDT',
+  orderId: 256224268,
+  orderListId: -1,
+  clientOrderId: 'xQpZVEF2U4yqyClrbkXOMO',
+  transactTime: 1624913104739,
+  price: '0.00000000',
+  origQty: '751.60000000',
+  executedQty: '751.60000000',
+  cummulativeQuoteQty: '42.23507300',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '0.05620000',
+      qty: '266.90000000',
+      commission: '0.01499978',
+      commissionAsset: 'USDT',
+      tradeId: 12508381
+    },
+    {
+      price: '0.05619000',
+      qty: '484.70000000',
+      commission: '0.02723529',
+      commissionAsset: 'USDT',
+      tradeId: 12508382
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '49.03000000',
+  bidQty: '13.23000000',
+  askPrice: '49.10200000',
+  askQty: '91.21000000'
+}
+
+ Buying BTCUPUSDT, available USDT 41.20165172, available qty 0.83
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198625869,
+  orderListId: -1,
+  clientOrderId: 'hYkKMst6hp4ItdzUCzYAji',
+  transactTime: 1624913105741,
+  price: '0.00000000',
+  origQty: '0.83000000',
+  executedQty: '0.83000000',
+  cummulativeQuoteQty: '40.75392000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '49.10100000',
+      qty: '0.74000000',
+      commission: '0.00074000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12572663
+    },
+    {
+      price: '49.10200000',
+      qty: '0.09000000',
+      commission: '0.00009000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12572664
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198694809,
+  orderListId: -1,
+  clientOrderId: 'kIewRulRq7wPgZC9Qc94th',
+  transactTime: 1624922116703,
+  price: '0.00000000',
+  origQty: '0.83000000',
+  executedQty: '0.83000000',
+  cummulativeQuoteQty: '39.89063000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '48.06100000',
+      qty: '0.83000000',
+      commission: '0.03989063',
+      commissionAsset: 'USDT',
+      tradeId: 12576719
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+Cannot Sell BTCDOWNUSDT
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '49.25800000',
+  bidQty: '109.83000000',
+  askPrice: '49.36300000',
+  askQty: '180.22000000'
+}
+
+ Buying BTCUPUSDT, available USDT 40.31489624, available qty 0.81
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198751447,
+  orderListId: -1,
+  clientOrderId: 'dDOb5naxkMw6bJzakrmgdh',
+  transactTime: 1624926603849,
+  price: '0.00000000',
+  origQty: '0.81000000',
+  executedQty: '0.81000000',
+  cummulativeQuoteQty: '39.98403000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '49.36300000',
+      qty: '0.81000000',
+      commission: '0.00081000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12578661
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198882823,
+  orderListId: -1,
+  clientOrderId: '7Ha4tB9YLM49rkYtkEJ1xF',
+  transactTime: 1624935623957,
+  price: '0.00000000',
+  origQty: '0.80000000',
+  executedQty: '0.80000000',
+  cummulativeQuoteQty: '38.67280000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '48.34100000',
+      qty: '0.80000000',
+      commission: '0.03867280',
+      commissionAsset: 'USDT',
+      tradeId: 12583795
+    }
+  ]
+}
+hook  test bot buy BINANCE:BTCUPUSDT: 
+{
+  symbol: 'BTCUPUSDT',
+  bidPrice: '49.57200000',
+  bidQty: '0.74000000',
+  askPrice: '49.62000000',
+  askQty: '2.09000000'
+}
+
+ Buying BTCUPUSDT, available USDT 38.972728, available qty 0.78
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 198920165,
+  orderListId: -1,
+  clientOrderId: 'VlngHAk7BR6tILbMiwhjC6',
+  transactTime: 1624940103763,
+  price: '0.00000000',
+  origQty: '0.78000000',
+  executedQty: '0.78000000',
+  cummulativeQuoteQty: '38.70360000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY',
+  fills: [
+    {
+      price: '49.62000000',
+      qty: '0.78000000',
+      commission: '0.00078000',
+      commissionAsset: 'BTCUP',
+      tradeId: 12585957
+    }
+  ]
+}
+hook  test bot sell BINANCE:BTCDOWNUSDT: 
+Cannot Sell BTCDOWNUSDT
+hook  test bot buy BINANCE:BTCDOWNUSDT: 
+Cannot but BTCDOWNUSDT
+ Balance < 10.00
+hook  test bot sell BINANCE:BTCUPUSDT: 
+response
+{
+  symbol: 'BTCUPUSDT',
+  orderId: 199656649,
+  orderListId: -1,
+  clientOrderId: 'M94UkOnW1tlXQF42yyGce1',
+  transactTime: 1625005832788,
+  price: '0.00000000',
+  origQty: '0.78000000',
+  executedQty: '0.78000000',
+  cummulativeQuoteQty: '40.77946000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'SELL',
+  fills: [
+    {
+      price: '52.28200000',
+      qty: '0.28000000',
+      commission: '0.01463896',
+      commissionAsset: 'USDT',
+      tradeId: 12631200
+    },
+    {
+      price: '52.28100000',
+      qty: '0.50000000',
+      commission: '0.02614050',
+      commissionAsset: 'USDT',
+      tradeId: 12631201
+    }
+  ]
+}
